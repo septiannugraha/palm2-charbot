@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# CharBot - A Character-based Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CharBot is an AI-powered chatbot that can emulate the style and personality of various characters. This project is the front-end part of the application, built with React.
 
-## Available Scripts
+![App Screenshot](https://iili.io/HPGQrN9.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Character-based chatbot: The chatbot can emulate the style and personality of various characters.
+- AI-powered: The chatbot uses the PaLM2 model from OpenAI to generate responses.
+- Interactive UI: The application provides a user-friendly interface for interacting with the chatbot.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To run this project, you will need to have Node.js and npm installed on your machine.
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/septiannugraha/palm2-charbot.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd palm2-charbot
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+The application will be available at `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Enter the name of the character you want the chatbot to emulate.
+2. The application will fetch the details of the character, including their bio and example dialogues.
+3. You can then start a conversation with the chatbot.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
